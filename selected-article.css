@@ -1,0 +1,832 @@
+
+html {
+	font-size:62.5%;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+ul, li {
+	list-style: none;
+}
+input {
+	border: none;
+}
+body {
+  width: 144rem;
+}.selected-article-RUR {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+}
+.selected-article-RUR .navbar-XnM {
+  margin-bottom: 11.1rem;
+  box-sizing: border-box;
+  padding: 1.2rem 13.9rem 1.2rem 10rem;
+  width: 100%;
+  height: 10.2rem;
+  display: flex;
+  align-items: center;
+  background-color: #d9d9d9;
+  flex-shrink: 0;
+}
+.selected-article-RUR .navbar-XnM .logo-RMw {
+  margin-right: 16.3rem;
+  width: 19rem;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 4rem;
+  font-weight: 900;
+  line-height: 1.2125;
+  color: #000000;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  background-color: #ffffff;
+  flex-shrink: 0;
+}
+.selected-article-RUR .navbar-XnM .nav-button-sjj {
+  margin: 3rem 16.6rem 2.8rem 0rem;
+  height: calc(100% - 5.8rem);
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.selected-article-RUR .navbar-XnM .nav-button-sjj .self-love-nrh {
+  margin-right: 6.8rem;
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 1.2125;
+  color: #000000;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.selected-article-RUR .navbar-XnM .nav-button-sjj .society-Wnh {
+  margin-right: 6.7rem;
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 1.2125;
+  color: #000000;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.selected-article-RUR .navbar-XnM .nav-button-sjj .relationship-thoughts-r5s {
+  margin-right: 6.7rem;
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 1.2125;
+  color: #000000;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.selected-article-RUR .navbar-XnM .nav-button-sjj .about-us-aGm {
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 1.2125;
+  color: #000000;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.selected-article-RUR .navbar-XnM .bell-1-hcH {
+  margin-bottom: 0.0004rem;
+  width: 1.8rem;
+  height: 1.9996rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.selected-article-RUR .auto-group-b5kt-R2V {
+  margin: 0rem 10rem 9rem 19.5rem;
+  width: calc(100% - 29.5rem);
+  height: 304rem;
+  display: flex;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.selected-article-RUR .auto-group-b5kt-R2V .body-XLR {
+  margin-right: 13.2rem;
+  width: 61.3rem;
+  height: 100%;
+  flex-shrink: 0;
+}
+.selected-article-RUR .auto-group-b5kt-R2V .body-XLR .auto-group-pyyj-UFf {
+  box-sizing: border-box;
+  padding-bottom: 4.2rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.selected-article-RUR .auto-group-b5kt-R2V .body-XLR .auto-group-pyyj-UFf .kembali-merasakan-jatuh-cinta-Qv1 {
+  margin-bottom: 2.3rem;
+  max-width: 46.5rem;
+  font-size: 4.8rem;
+  font-weight: 800;
+  line-height: 1.2125;
+  color: #000000;
+  font-family: Inter, 'Source Sans Pro';
+  flex-shrink: 0;
+}
+.selected-article-RUR .auto-group-b5kt-R2V .body-XLR .auto-group-pyyj-UFf .article-writer-iQu {
+  margin: 0rem 38.2rem 0rem 0.6rem;
+  width: calc(100% - 38.8rem);
+  height: 7.1rem;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.selected-article-RUR .auto-group-b5kt-R2V .body-XLR .auto-group-pyyj-UFf .article-writer-iQu .profile-picture-bUh {
+  margin-right: 2.8rem;
+  width: 7.1rem;
+  height: 7.1rem;
+  background-color: #d9d9d9;
+  border-radius: 3.55rem;
+  flex-shrink: 0;
+}
+.selected-article-RUR .auto-group-b5kt-R2V .body-XLR .auto-group-pyyj-UFf .article-writer-iQu .auto-group-zqt3-gFF {
+  margin: 1.6rem 0rem 1.5rem 0rem;
+  height: calc(100% - 3.1rem);
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.selected-article-RUR .auto-group-b5kt-R2V .body-XLR .auto-group-pyyj-UFf .article-writer-iQu .auto-group-zqt3-gFF .sartika-nuralifah-o4y {
+  margin-bottom: 0.4rem;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.2125;
+  color: #000000;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.selected-article-RUR .auto-group-b5kt-R2V .body-XLR .auto-group-pyyj-UFf .article-writer-iQu .auto-group-zqt3-gFF .november-2023-jDX {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5052272797;
+  color: #848484;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.selected-article-RUR .auto-group-b5kt-R2V .body-XLR .body-article-rJ9 {
+  margin-bottom: 6.4rem;
+  box-sizing: border-box;
+  padding-bottom: 4.2rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  border-bottom: solid 0.2rem #d9d9d9;
+  border-radius: 0.5rem;
+}
+.selected-article-RUR .auto-group-b5kt-R2V .body-XLR .body-article-rJ9 .rectangle-25-yNm {
+  margin-bottom: 2.2rem;
+  width: 61rem;
+  height: 50rem;
+  background-color: #d9d9d9;
+  border-radius: 0.5rem;
+  flex-shrink: 0;
+}
+.selected-article-RUR .auto-group-b5kt-R2V .body-XLR .body-article-rJ9 .lorem-ipsum-dolor-sit-amet-consectetur-adipisicing-elit-sed-do-eiusmod-tempor-incididunt-ut-labore-et-dolore-magna-aliqua-ut-enim-ad-minim-veniam-quis-nostrud-exercitation-ullamco-laboris-nisi-ut-aliquip-ex-ea-commodo-consequat-duis-aute-irure-dolor-in-reprehenderit-in-voluptate-velit-esse-cillum-dolore-eu-fugiat-nulla-pariatur-excepteur-sint-occaecat-cupidatat-non-proident-sunt-in-culpa-qui-officia-deserunt-mollit-anim-id-est-laborum-6CV {
+  margin-bottom: 3.4rem;
+  max-width: 60.9rem;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 2.0050001144;
+  color: #000000;
+  font-family: Inter, 'Source Sans Pro';
+  flex-shrink: 0;
+}
+.selected-article-RUR .auto-group-b5kt-R2V .body-XLR .body-article-rJ9 .lorem-ipsum-dolor-sit-amet-consectetur-adipisicing-elit-sed-do-eiusmod-tempor-incididunt-ut-labore-et-dolore-magna-aliqua-ut-enim-ad-minim-veniam-quis-nostrud-exercitation-ullamco-laboris-nisi-ut-aliquip-ex-ea-commodo-consequat-duis-aute-irure-dolor-in-reprehenderit-in-voluptate-velit-esse-cillum-dolore-eu-fugiat-nulla-pariatur-excepteur-sint-occaecat-cupidatat-non-proident-sunt-in-culpa-qui-officia-deserunt-mollit-anim-id-est-laborum-DwK {
+  margin: 0rem 0rem 3.4rem 0.3rem;
+  max-width: 60.9rem;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 2.0050001144;
+  color: #000000;
+  font-family: Inter, 'Source Sans Pro';
+  flex-shrink: 0;
+}
+.selected-article-RUR .auto-group-b5kt-R2V .body-XLR .body-article-rJ9 .rectangle-26-xGd {
+  margin-bottom: 2.3rem;
+  width: 61rem;
+  height: 50rem;
+  background-color: #d9d9d9;
+  border-radius: 0.5rem;
+  flex-shrink: 0;
+}
+.selected-article-RUR .auto-group-b5kt-R2V .body-XLR .body-article-rJ9 .lorem-ipsum-dolor-sit-amet-consectetur-adipisicing-elit-sed-do-eiusmod-tempor-incididunt-ut-labore-et-dolore-magna-aliqua-ut-enim-ad-minim-veniam-quis-nostrud-exercitation-ullamco-laboris-nisi-ut-aliquip-ex-ea-commodo-consequat-duis-aute-irure-dolor-in-reprehenderit-in-voluptate-velit-esse-cillum-dolore-eu-fugiat-nulla-pariatur-excepteur-sint-occaecat-cupidatat-non-proident-sunt-in-culpa-qui-officia-deserunt-mollit-anim-id-est-laborum-rcu {
+  margin-bottom: 2.2rem;
+  max-width: 60.9rem;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 2.0050001144;
+  color: #000000;
+  font-family: Inter, 'Source Sans Pro';
+  flex-shrink: 0;
+}
+.selected-article-RUR .auto-group-b5kt-R2V .body-XLR .body-article-rJ9 .lorem-ipsum-dolor-sit-amet-consectetur-adipisicing-elit-sed-do-eiusmod-tempor-incididunt-ut-labore-et-dolore-magna-aliqua-ut-enim-ad-minim-veniam-quis-nostrud-exercitation-ullamco-laboris-nisi-ut-aliquip-ex-ea-commodo-consequat-duis-aute-irure-dolor-in-reprehenderit-in-voluptate-velit-esse-cillum-dolore-eu-fugiat-nulla-pariatur-excepteur-sint-occaecat-cupidatat-non-proident-sunt-in-culpa-qui-officia-deserunt-mollit-anim-id-est-laborum-pCM {
+  margin-bottom: 2.2rem;
+  max-width: 60.9rem;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 2.0050001144;
+  color: #000000;
+  font-family: Inter, 'Source Sans Pro';
+  flex-shrink: 0;
+}
+.selected-article-RUR .auto-group-b5kt-R2V .body-XLR .body-article-rJ9 .editor-indri-wulandari-xxm {
+  margin-bottom: 4rem;
+  font-size: 2.4rem;
+  font-weight: 600;
+  line-height: 2.0050001144;
+  color: #000000;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.selected-article-RUR .auto-group-b5kt-R2V .body-XLR .must-reads-Fws {
+  margin-right: 0.3rem;
+  width: calc(100% - 0.3rem);
+  height: 35.1rem;
+  display: flex;
+  align-items: center;
+}
+.selected-article-RUR .auto-group-b5kt-R2V .body-XLR .must-reads-Fws .auto-group-dkfj-PoB {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.selected-article-RUR .auto-group-b5kt-R2V .body-XLR .must-reads-Fws .auto-group-dkfj-PoB .must-reads-9nM {
+  margin-bottom: 2.4rem;
+  font-size: 3.2rem;
+  font-weight: 600;
+  line-height: 1.2125;
+  color: #000000;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.selected-article-RUR .auto-group-b5kt-R2V .body-XLR .must-reads-Fws .auto-group-dkfj-PoB .card-news-V5X {
+  box-sizing: border-box;
+  padding-bottom: 3.4rem;
+  width: 19rem;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  border: solid 0.1rem #d9d9d9;
+  border-radius: 1.5rem;
+  flex-shrink: 0;
+}
+.selected-article-RUR .auto-group-b5kt-R2V .body-XLR .must-reads-Fws .auto-group-dkfj-PoB .card-news-V5X .article-photo-RUy {
+  margin-bottom: 0.9rem;
+  width: 100%;
+  height: 14.8rem;
+  background-color: #d9d9d9;
+  border-radius: 1.5rem 1.5rem 0 0;
+  flex-shrink: 0;
+}
+.selected-article-RUR .auto-group-b5kt-R2V .body-XLR .must-reads-Fws .auto-group-dkfj-PoB .card-news-V5X .seni-sebagai-medium-edukasi-kesehatan-mental-9Qy {
+  max-width: 16.6rem;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.2125;
+  color: #000000;
+  font-family: Inter, 'Source Sans Pro';
+  flex-shrink: 0;
+}
+.selected-article-RUR .auto-group-b5kt-R2V .body-XLR .must-reads-Fws .auto-group-a1em-dL9 {
+  box-sizing: border-box;
+  padding-top: 6.3rem;
+  height: 100%;
+  display: flex;
+  align-items: flex-end;
+  flex-shrink: 0;
+}
+.selected-article-RUR .auto-group-b5kt-R2V .body-XLR .must-reads-Fws .auto-group-a1em-dL9 .card-news-yQ1 {
+  margin-right: 2rem;
+  box-sizing: border-box;
+  padding-bottom: 3.4rem;
+  width: 19rem;
+  height: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  border: solid 0.1rem #d9d9d9;
+  border-radius: 1.5rem;
+  flex-shrink: 0;
+}
+.selected-article-RUR .auto-group-b5kt-R2V .body-XLR .must-reads-Fws .auto-group-a1em-dL9 .card-news-yQ1 .article-photo-WPw {
+  margin-bottom: 0.9rem;
+  width: 100%;
+  height: 14.8rem;
+  background-color: #d9d9d9;
+  border-radius: 1.5rem 1.5rem 0 0;
+  flex-shrink: 0;
+}
+.selected-article-RUR .auto-group-b5kt-R2V .body-XLR .must-reads-Fws .auto-group-a1em-dL9 .card-news-yQ1 .seni-sebagai-medium-edukasi-kesehatan-mental-S2h {
+  max-width: 16.6rem;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.2125;
+  color: #000000;
+  font-family: Inter, 'Source Sans Pro';
+  flex-shrink: 0;
+}
+.selected-article-RUR .auto-group-b5kt-R2V .body-XLR .must-reads-Fws .auto-group-a1em-dL9 .card-news-viZ {
+  box-sizing: border-box;
+  padding-bottom: 3.4rem;
+  width: 19rem;
+  height: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  border: solid 0.1rem #d9d9d9;
+  border-radius: 1.5rem;
+  flex-shrink: 0;
+}
+.selected-article-RUR .auto-group-b5kt-R2V .body-XLR .must-reads-Fws .auto-group-a1em-dL9 .card-news-viZ .article-photo-TyP {
+  margin-bottom: 0.9rem;
+  width: 100%;
+  height: 14.8rem;
+  background-color: #d9d9d9;
+  border-radius: 1.5rem 1.5rem 0 0;
+  flex-shrink: 0;
+}
+.selected-article-RUR .auto-group-b5kt-R2V .body-XLR .must-reads-Fws .auto-group-a1em-dL9 .card-news-viZ .seni-sebagai-medium-edukasi-kesehatan-mental-b41 {
+  max-width: 16.6rem;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.2125;
+  color: #000000;
+  font-family: Inter, 'Source Sans Pro';
+  flex-shrink: 0;
+}
+.selected-article-RUR .auto-group-b5kt-R2V .other-articles-UNh {
+  width: 40rem;
+  flex-shrink: 0;
+}
+.selected-article-RUR .auto-group-b5kt-R2V .other-articles-UNh .other-articles-17j {
+  margin-bottom: 4.4rem;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.2125;
+  color: #000000;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.selected-article-RUR .auto-group-b5kt-R2V .other-articles-UNh .news-card-j3j {
+  margin-bottom: 3rem;
+  box-sizing: border-box;
+  padding: 2.1rem 1.8rem 3.3rem 1.7rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  border: solid 0.2rem #d9d9d9;
+  border-radius: 1.5rem;
+}
+.selected-article-RUR .auto-group-b5kt-R2V .other-articles-UNh .news-card-j3j .photo-article-3KK {
+  margin-right: 2.5rem;
+  width: 12.5rem;
+  height: 12.5rem;
+  background-color: #d9d9d9;
+  border-radius: 0.5rem;
+  flex-shrink: 0;
+}
+.selected-article-RUR .auto-group-b5kt-R2V .other-articles-UNh .news-card-j3j .auto-group-mdzf-NMb {
+  margin-bottom: 2.8rem;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.selected-article-RUR .auto-group-b5kt-R2V .other-articles-UNh .news-card-j3j .auto-group-mdzf-NMb .seni-sebagai-medium-edukasi-kesehatan-mental-v8D {
+  margin-bottom: 0.5rem;
+  max-width: 21.5rem;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.2125;
+  color: #000000;
+  font-family: Inter, 'Source Sans Pro';
+  flex-shrink: 0;
+}
+.selected-article-RUR .auto-group-b5kt-R2V .other-articles-UNh .news-card-j3j .auto-group-mdzf-NMb .november-2023-qW5 {
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 1.5052274068;
+  color: #848484;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.selected-article-RUR .auto-group-b5kt-R2V .other-articles-UNh .news-card-k7F {
+  margin-bottom: 3rem;
+  box-sizing: border-box;
+  padding: 2.1rem 1.8rem 3.3rem 1.7rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  border: solid 0.2rem #d9d9d9;
+  border-radius: 1.5rem;
+}
+.selected-article-RUR .auto-group-b5kt-R2V .other-articles-UNh .news-card-k7F .photo-article-GbP {
+  margin-right: 2.5rem;
+  width: 12.5rem;
+  height: 12.5rem;
+  background-color: #d9d9d9;
+  border-radius: 0.5rem;
+  flex-shrink: 0;
+}
+.selected-article-RUR .auto-group-b5kt-R2V .other-articles-UNh .news-card-k7F .auto-group-mvym-13B {
+  margin-bottom: 2.8rem;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.selected-article-RUR .auto-group-b5kt-R2V .other-articles-UNh .news-card-k7F .auto-group-mvym-13B .seni-sebagai-medium-edukasi-kesehatan-mental-kWZ {
+  margin-bottom: 0.5rem;
+  max-width: 21.5rem;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.2125;
+  color: #000000;
+  font-family: Inter, 'Source Sans Pro';
+  flex-shrink: 0;
+}
+.selected-article-RUR .auto-group-b5kt-R2V .other-articles-UNh .news-card-k7F .auto-group-mvym-13B .november-2023-533 {
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 1.5052274068;
+  color: #848484;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.selected-article-RUR .auto-group-b5kt-R2V .other-articles-UNh .news-card-akV {
+  margin-bottom: 3rem;
+  box-sizing: border-box;
+  padding: 2.1rem 1.8rem 3.3rem 1.7rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  border: solid 0.2rem #d9d9d9;
+  border-radius: 1.5rem;
+}
+.selected-article-RUR .auto-group-b5kt-R2V .other-articles-UNh .news-card-akV .photo-article-Heu {
+  margin-right: 2.5rem;
+  width: 12.5rem;
+  height: 12.5rem;
+  background-color: #d9d9d9;
+  border-radius: 0.5rem;
+  flex-shrink: 0;
+}
+.selected-article-RUR .auto-group-b5kt-R2V .other-articles-UNh .news-card-akV .auto-group-u2rh-cSH {
+  margin-bottom: 2.8rem;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.selected-article-RUR .auto-group-b5kt-R2V .other-articles-UNh .news-card-akV .auto-group-u2rh-cSH .seni-sebagai-medium-edukasi-kesehatan-mental-ZcR {
+  margin-bottom: 0.5rem;
+  max-width: 21.5rem;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.2125;
+  color: #000000;
+  font-family: Inter, 'Source Sans Pro';
+  flex-shrink: 0;
+}
+.selected-article-RUR .auto-group-b5kt-R2V .other-articles-UNh .news-card-akV .auto-group-u2rh-cSH .november-2023-GWq {
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 1.5052274068;
+  color: #848484;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.selected-article-RUR .auto-group-b5kt-R2V .other-articles-UNh .news-card-aXX {
+  margin-bottom: 3rem;
+  box-sizing: border-box;
+  padding: 2.1rem 1.8rem 3.3rem 1.7rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  border: solid 0.2rem #d9d9d9;
+  border-radius: 1.5rem;
+}
+.selected-article-RUR .auto-group-b5kt-R2V .other-articles-UNh .news-card-aXX .photo-article-hs3 {
+  margin-right: 2.5rem;
+  width: 12.5rem;
+  height: 12.5rem;
+  background-color: #d9d9d9;
+  border-radius: 0.5rem;
+  flex-shrink: 0;
+}
+.selected-article-RUR .auto-group-b5kt-R2V .other-articles-UNh .news-card-aXX .auto-group-axo3-2uK {
+  margin-bottom: 2.8rem;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.selected-article-RUR .auto-group-b5kt-R2V .other-articles-UNh .news-card-aXX .auto-group-axo3-2uK .seni-sebagai-medium-edukasi-kesehatan-mental-afw {
+  margin-bottom: 0.5rem;
+  max-width: 21.5rem;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.2125;
+  color: #000000;
+  font-family: Inter, 'Source Sans Pro';
+  flex-shrink: 0;
+}
+.selected-article-RUR .auto-group-b5kt-R2V .other-articles-UNh .news-card-aXX .auto-group-axo3-2uK .november-2023-7A5 {
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 1.5052274068;
+  color: #848484;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.selected-article-RUR .auto-group-b5kt-R2V .other-articles-UNh .news-card-paH {
+  box-sizing: border-box;
+  padding: 2.1rem 1.8rem 3.3rem 1.7rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  border: solid 0.2rem #d9d9d9;
+  border-radius: 1.5rem;
+}
+.selected-article-RUR .auto-group-b5kt-R2V .other-articles-UNh .news-card-paH .photo-article-9cZ {
+  margin-right: 2.5rem;
+  width: 12.5rem;
+  height: 12.5rem;
+  background-color: #d9d9d9;
+  border-radius: 0.5rem;
+  flex-shrink: 0;
+}
+.selected-article-RUR .auto-group-b5kt-R2V .other-articles-UNh .news-card-paH .auto-group-nq33-tKF {
+  margin-bottom: 2.8rem;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.selected-article-RUR .auto-group-b5kt-R2V .other-articles-UNh .news-card-paH .auto-group-nq33-tKF .seni-sebagai-medium-edukasi-kesehatan-mental-dXj {
+  margin-bottom: 0.5rem;
+  max-width: 21.5rem;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.2125;
+  color: #000000;
+  font-family: Inter, 'Source Sans Pro';
+  flex-shrink: 0;
+}
+.selected-article-RUR .auto-group-b5kt-R2V .other-articles-UNh .news-card-paH .auto-group-nq33-tKF .november-2023-xa1 {
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 1.5052274068;
+  color: #848484;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.selected-article-RUR .footer-fjK {
+  box-sizing: border-box;
+  padding: 3.1rem 10rem 2.4rem 10rem;
+  width: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background-color: #d9d9d9;
+  flex-shrink: 0;
+}
+.selected-article-RUR .footer-fjK .auto-group-ypdj-nZ3 {
+  margin-bottom: 1.6rem;
+  width: 100%;
+  height: 7.9rem;
+  display: flex;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.selected-article-RUR .footer-fjK .auto-group-ypdj-nZ3 .logo-Wjw {
+  margin-right: 54.5rem;
+  width: 19rem;
+  height: 6.7rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 4rem;
+  font-weight: 900;
+  line-height: 1.2125;
+  color: #000000;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  background-color: #ffffff;
+  flex-shrink: 0;
+}
+.selected-article-RUR .footer-fjK .auto-group-ypdj-nZ3 .stay-connected-Poj {
+  width: 50.5rem;
+  height: 100%;
+  flex-shrink: 0;
+}
+.selected-article-RUR .footer-fjK .auto-group-ypdj-nZ3 .stay-connected-Poj .auto-group-etdb-YRj {
+  margin: 0rem 1.8rem 1.2rem 0rem;
+  width: calc(100% - 1.8rem);
+  display: flex;
+  align-items: center;
+}
+.selected-article-RUR .footer-fjK .auto-group-ypdj-nZ3 .stay-connected-Poj .auto-group-etdb-YRj .stay-connected-sU1 {
+  margin-right: 8.6rem;
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 1.2125;
+  color: #000000;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.selected-article-RUR .footer-fjK .auto-group-ypdj-nZ3 .stay-connected-Poj .auto-group-etdb-YRj .stay-update-and-more-into-your-box-D25 {
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 1.2125;
+  color: #000000;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.selected-article-RUR .footer-fjK .auto-group-ypdj-nZ3 .stay-connected-Poj .auto-group-kdmf-LcV {
+  width: 100%;
+  height: 4.7rem;
+  display: flex;
+  align-items: center;
+}
+.selected-article-RUR .footer-fjK .auto-group-ypdj-nZ3 .stay-connected-Poj .auto-group-kdmf-LcV .medsos-Uyb {
+  margin: 0.4rem 2rem 0.4rem 0rem;
+  box-sizing: border-box;
+  padding: 1rem 1.4rem 0.9rem 1.3rem;
+  height: calc(100% - 0.8rem);
+  display: flex;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.3000000119);
+  flex-shrink: 0;
+}
+.selected-article-RUR .footer-fjK .auto-group-ypdj-nZ3 .stay-connected-Poj .auto-group-kdmf-LcV .medsos-Uyb .instagram-1-P4y {
+  margin-right: 2.8rem;
+  width: 2rem;
+  height: 2rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.selected-article-RUR .footer-fjK .auto-group-ypdj-nZ3 .stay-connected-Poj .auto-group-kdmf-LcV .medsos-Uyb .youtube-1-iN9 {
+  margin: 0rem 2.7rem 0.054rem 0rem;
+  width: 2.2001rem;
+  height: 1.546rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.selected-article-RUR .footer-fjK .auto-group-ypdj-nZ3 .stay-connected-Poj .auto-group-kdmf-LcV .medsos-Uyb .twitter-1-RnM {
+  margin: 0rem 3.3rem 0.008rem 0rem;
+  width: 2.2rem;
+  height: 1.7944rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.selected-article-RUR .footer-fjK .auto-group-ypdj-nZ3 .stay-connected-Poj .auto-group-kdmf-LcV .medsos-Uyb .facebook-1-k3w {
+  width: 1.1rem;
+  height: 2rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.selected-article-RUR .footer-fjK .auto-group-ypdj-nZ3 .stay-connected-Poj .auto-group-kdmf-LcV .rectangle-23-4KX {
+  margin-right: 0.4rem;
+  width: 19rem;
+  height: 4.7rem;
+  border: solid 0.3rem #ffffff;
+  box-sizing: border-box;
+  flex-shrink: 0;
+}
+.selected-article-RUR .footer-fjK .auto-group-ypdj-nZ3 .stay-connected-Poj .auto-group-kdmf-LcV .auto-group-wxz9-AtM {
+  width: 10.1rem;
+  height: 100%;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.2125;
+  color: #000000;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff;
+  border-radius: 0.5rem;
+  flex-shrink: 0;
+}
+.selected-article-RUR .footer-fjK .auto-group-cuy1-rWH {
+  margin: 0rem 32.1rem 2.9rem 0rem;
+  width: calc(100% - 32.1rem);
+  height: 14.9rem;
+  display: flex;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.selected-article-RUR .footer-fjK .auto-group-cuy1-rWH .mental-health-office-yL1 {
+  margin-right: 53.5rem;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.selected-article-RUR .footer-fjK .auto-group-cuy1-rWH .mental-health-office-yL1 .group-29-jakarta-vFF {
+  margin-bottom: 1.1rem;
+  font-size: 2.4rem;
+  font-weight: 500;
+  line-height: 1.2125;
+  color: #000000;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.selected-article-RUR .footer-fjK .auto-group-cuy1-rWH .mental-health-office-yL1 .celvin-heni-puput-safira-sofian-zadan-qt1 {
+  margin-bottom: 2.9rem;
+  max-width: 12.3rem;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.2125;
+  color: rgba(0, 0, 0, 0.6000000238);
+  font-family: Inter, 'Source Sans Pro';
+  flex-shrink: 0;
+}
+.selected-article-RUR .footer-fjK .auto-group-cuy1-rWH .mental-health-office-yL1 .revou-x-msib-batch-5-xSq {
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 1.2125;
+  color: #000000;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.selected-article-RUR .footer-fjK .auto-group-cuy1-rWH .mhealth-menu-Vhf {
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.selected-article-RUR .footer-fjK .auto-group-cuy1-rWH .mhealth-menu-Vhf .mhealth-menu-Fwj {
+  margin-bottom: 1.1rem;
+  font-size: 2.4rem;
+  font-weight: 500;
+  line-height: 1.2125;
+  color: #000000;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.selected-article-RUR .footer-fjK .auto-group-cuy1-rWH .mhealth-menu-Vhf .relationship-thoughts-self-love-society-about-us-oCZ {
+  max-width: 18.4rem;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.2125;
+  color: #000000;
+  font-family: Inter, 'Source Sans Pro';
+  flex-shrink: 0;
+}
+.selected-article-RUR .footer-fjK .credit-WMs {
+  box-sizing: border-box;
+  padding: 1.2rem 38.1rem 0rem 37.5rem;
+  width: 100%;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.2102272851;
+  color: rgba(0, 0, 0, 0.6000000238);
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: baseline;
+  border-top: solid 0.1rem #848484;
+  flex-shrink: 0;
+}
+.selected-article-RUR .footer-fjK .credit-WMs .credit-WMs-sub-0 {
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.2125;
+  color: rgba(0, 0, 0, 0.6000000238);
+  font-family: Inter, 'Source Sans Pro';
+}
+.selected-article-RUR .footer-fjK .credit-WMs .credit-WMs-sub-1 {
+  font-size: 1.4rem;
+  font-weight: 600;
+  line-height: 1.2125;
+  color: rgba(0, 0, 0, 0.6000000238);
+  font-family: Inter, 'Source Sans Pro';
+}
