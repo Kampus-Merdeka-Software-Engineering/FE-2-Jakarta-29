@@ -1,4 +1,4 @@
-const baseUrl = "https://mhealth.adaptable.app";
+const baseUrl = "https://mhealth.cyclic.app";
         const apiRoutes = {
                 articleList: `${baseUrl}/news/relationship`,
         };

@@ -1,6 +1,6 @@
 const baseUrl = "https://mhealth.cyclic.app";
         const apiRoutes = {
-                articleList: `${baseUrl}/news/society`,
+                articleList: `${baseUrl}/news/self`,
         };
         const loadArticleList = () => {
             fetch(apiRoutes.articleList)
@@ -8,7 +8,7 @@ const baseUrl = "https://mhealth.cyclic.app";
             .then((res) => {
                 console.log({res});
                 res.forEach(({ title, image, date, description }) => {
-                    document.getElementById("society-topic").innerHTML += `
+                    document.getElementById("self-topic").innerHTML += `
                     <div class="news-wrapper">
                         <div class="news-grid-left">
                             <img src="${image}" alt="contoh">
