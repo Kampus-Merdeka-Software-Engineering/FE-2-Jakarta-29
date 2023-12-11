@@ -20,14 +20,14 @@
             </div>
             <div class="nav-menu">
                 <ul class="nav-items">
-                    <li class="nav-item"><a class="nav-links"href="#Self">Self Love</a></li>
-                    <li class="nav-item"><a class="nav-links"href="#Society">Society</a></li>
-                    <li class="nav-item"><a class="nav-links"href="#Relationship">Relationship</a></li>
+                    <li class="nav-item"><a class="nav-links"href="topic-self.html">Self Love</a></li>
+                    <li class="nav-item"><a class="nav-links"href="topic-society.html">Society</a></li>
+                    <li class="nav-item"><a class="nav-links"href="topic-relation.html">Relationship</a></li>
                 </ul>
             </div>
             <div class="nav-icon">
-                <a href="#kritik">
-                    <img src="./assets/paper-plane.svg" alt="paper-plane" href="#subscribe">
+                <a id="show-form">
+                    <img src="./assets/paper-plane.svg" alt="paper-plane" href="">
                 </a>
             </div>
         </div>
@@ -140,11 +140,34 @@
                 </div>
                 <div class="sect-2">
                     <p>More into your box</p>
-                    <button>Kritik & Saran</button>
+                    <button id="show-form">Kritik & Saran</button>
                 </div>
             </div>
         </div>
     </div>
     <!-- Footer End Here -->
+
+    <!-- Pop up form Start Here-->
+    <div class="popup">
+        <div class="close-button">&times</div>
+        <div class="form">
+            <h2>Kritik & Saran</h2>
+            <div class="form-element">
+                <label for="name">Username</label>
+                <input type="text" id="name" placeholder="Masukan Username">
+            </div>
+            <div class="form-element">
+                <label for="kritik">Kritik & Saran</label>
+                <input type="text" id="kritik" placeholder="Masukan Kritik">
+            </div>
+            <div class="form-element">
+                <button>POST</button>
+            </div>
+        </div>
+    </div>
+    <!-- Pop up form End Here-->
+
+    <!--Java Script-->
+    <script defer src="./js/popup.js"></script>
 </body>
 </html>

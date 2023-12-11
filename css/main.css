@@ -129,6 +129,7 @@ Navbar Start ----------------------------------------------------------------
     width: 30px;
     height: 30px;
     margin: 0 100px;
+    cursor: pointer;
 }
 
 .nav-icon img {
@@ -213,7 +214,7 @@ News Start ----------------------------------------------------------------
     background: var(--white);
     border-radius: 5px;
     overflow: hidden;
-    height: 500px;
+    height: 450px;
 }
 
 .card-grid .content {
@@ -222,10 +223,22 @@ News Start ----------------------------------------------------------------
 .content h3 {
     font-size: 18px;
     text-align: left;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    -webkit-line-clamp: 2;
+    text-overflow: ellipsis;
+    white-space: normal;
 }
 .desc {
     font-size: 12px;
     line-height: 18px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    -webkit-line-clamp: 4;
+    text-overflow: ellipsis;
+    white-space: normal;
 }
 .date {
     font-size: 10px;
@@ -235,6 +248,7 @@ News Start ----------------------------------------------------------------
     height: 228px;
     transition: 0.3s;
     text-align: center;
+    object-fit: cover;
 }
 .desc {
     color: var(--teks);
@@ -352,9 +366,103 @@ Footer Start Here --------------------------------------------------------------
     color: var(--teks);
     font-weight: bolder;
     border-radius: 5px;
+    cursor: pointer;
 }
 
 
 .box-center img {
     align-items: right;
+}
+
+/*
+Pop-up Form ----------------------------------------------------------------
+*/
+
+.popup {
+    position: fixed;
+    top: -150%;
+    left: 50%;
+    opacity: 0;
+    transform: translate(-50%, -50%) scale(1.25);
+    width: 380px;
+    padding: 20px 30px;
+    background: #fff;
+    box-shadow: 2px 2px 5px 5px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    transition: top 0ms ease-in-out 200ms,
+                opacity 0ms ease-in-out 200ms,
+                transform 0ms ease-in-out 200ms;
+}
+
+.popup.active {
+    top: 50%;
+    opacity:1;
+    transform: translate(-50%, -50%) scale(1.25);
+    transition: top 0ms ease-in-out 0ms,
+                opacity 0.5s ease-in-out 200ms,
+                transform 0.3s ease-in-out 200ms;
+}
+
+.popup .close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 15px;
+    height: 20px;
+    background: #888;
+    text-align: center;
+    line-height: 15px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.popup .form h2 {
+    text-align: center;
+    color: #222;
+    margin: 10px 0 20px;
+    font-size: 40px;
+}
+
+.popup .form .form-element {
+    margin: 15px 0px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 2fr;
+}
+
+.popup .form .form-element label {
+    font-size: 14px;
+    color: #222;
+    margin-bottom: 5px;
+}
+
+.popup.form.form-element input[type='text'] {
+    margin-top: 5px;
+    display: block;
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+}
+
+.popup .form .form-element button {
+    width: 100%;
+    height: 40px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    background-color: #222;
+    color: #f5f5f5;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.popup .form .form-element a {
+    display: block;
+    text-align: right;
+    font-size: 15px;
+    color: #1a79ca;
+    text-decoration: none;
+    font-weight: 600;
 }
