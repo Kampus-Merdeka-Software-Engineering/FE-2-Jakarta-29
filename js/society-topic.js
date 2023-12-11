@@ -1,4 +1,4 @@
-const baseUrl = "http://localhost:4000";
+const baseUrl = "https://mhealth.adaptable.app";
         const apiRoutes = {
                 articleList: `${baseUrl}/news/society`,
         };
