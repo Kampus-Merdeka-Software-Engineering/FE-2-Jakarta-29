@@ -3,8 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Topics</title>
+    <title>MHealth</title>
 
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/Logo(1).png">
     <link rel="stylesheet" href="./css/topics.css">
 </head>
 <body>
@@ -22,6 +23,7 @@
                     <li class="nav-item"><a class="nav-links"href="topic-self.html">Self Love</a></li>
                     <li class="nav-item"><a class="nav-links"href="topic-society.html">Society</a></li>
                     <li class="nav-item"><a class="nav-links"href="topic-relation.html">Relationship</a></li>
+                    <li class="nav-item"><a class="nav-links"href="about-us.html">About Us</a></li>
                 </ul>
             </div>
             <div class="nav-icon">
@@ -92,7 +94,7 @@
     <!-- Pop up form Start Here-->
     <div class="popup">
         <div class="close-button">&times</div>
-        <div class="form">
+        <form class="form">
             <h2>Kritik & Saran</h2>
             <div class="form-element">
                 <label for="name">Username</label>
@@ -103,14 +105,20 @@
                 <input type="text" id="kritik" placeholder="Masukan Kritik">
             </div>
             <div class="form-element">
-                <button>POST</button>
+                <button id="submit-button">POST</button>
             </div>
-        </div>
+        </form>
     </div>
     <!-- Pop up form End Here-->
 
     <!--Java Script-->
     <script defer src="./js/popup.js"></script>
     <script defer src="./js/society-topic.js"></script>
+    <script defer src="./js/form.js"></script>
+    <script>
+        function redirectToArticles(id) {
+        window.location.href = `/article.html?id=${id}`;
+    }
+    </script>
 </body>
 </html>

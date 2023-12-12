@@ -1,4 +1,4 @@
-const baseUrl2 = "https://mhealth.cyclic.app/";
+const baseUrl2 = "https://mhealth.cyclic.app";
 const apiRoutes2 = {
     articleList: `${baseUrl2}/news/relationship`,
 };
@@ -8,9 +8,9 @@ const loadArticleListRelation = () => {
     .then((res) => {
         console.log({res});
         for (let i = 0; i < 3; i++) {
-            const { title, description, image, date } = res[i];
+            const { id, title, description, image, date } = res[i];
             document.getElementById("relation-card").innerHTML += `
-            <div class="card-grid">
+            <div class="card-grid" onclick={redirectToArticles(${id})}>
                 <img src="${image}" alt="contoh">
                 <div class="content">
                     <h3>${title}</h3>
@@ -23,6 +23,7 @@ const loadArticleListRelation = () => {
         console.log({res});
     });
 };
+
 loadArticleListRelation();
 
 

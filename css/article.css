@@ -186,9 +186,21 @@ Article Body ----------------------------------------------------------------
 
 .body-article .imageUrl {
     width: 550px;
-    height: 500px;
+    height: auto;
     margin-bottom: 22px;
 }
+
+.body-article p{
+    text-align: justify;
+}
+
+
+.body-article p img {
+    width: 550px;
+    height: auto;
+    margin-bottom: 22px;
+}
+
 
 .body-article .article-content {
     font-size: 15px;
@@ -217,11 +229,14 @@ Other Articles --------------------------------
     display: grid;
     grid-template-columns: 100px 1fr;
     gap: 15px;
+    cursor: pointer;
 }
+
 
 .news-wrapper img {
     width: 100px;
     height: 100px;
+    object-fit: cover;
     border-radius: 5px;
 }
 
@@ -253,11 +268,13 @@ Other Articles --------------------------------
     border-radius: 10px;
     overflow: hidden;
     height: auto;
+    cursor: pointer;
 }
 
 .cards img {
     width: 100%;
     height: 140px;
+    object-fit: cover;
     text-align: center;
 }
 

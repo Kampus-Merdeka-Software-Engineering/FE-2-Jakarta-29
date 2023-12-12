@@ -212,9 +212,11 @@ News Start ----------------------------------------------------------------
 
 .card-grid {
     background: var(--white);
+    border: 1px transparent;
     border-radius: 5px;
     overflow: hidden;
     height: 450px;
+    cursor: pointer;
 }
 
 .card-grid .content {

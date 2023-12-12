@@ -1,5 +1,4 @@
 
-
 /*
 Global Variables
 */
@@ -38,10 +37,11 @@ h1, h2, h3 {
 
 p {
     font-size: 12px;
-    line-height: 20px;
-    font-weight: 300;
-    color: var(--teks);
+    line-height: 30px;
+    font-weight: 400;
+    color: var(--teks-shade);
 }
+
 
 /*
 Scrollbar
@@ -93,6 +93,7 @@ Navbar Start ----------------------------------------------------------------
     border: 5px solid var(--dark-red);
     border-radius: 30%;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    
 }
 .nav-menu {
     margin: 0 auto;
@@ -127,19 +128,20 @@ Navbar Start ----------------------------------------------------------------
     width: 30px;
     height: 30px;
     margin: 0 100px;
-
+    cursor: pointer;
 }
+
 .nav-icon img {
+    position: relative;
     width: 100%;
     height: 100%;
     transition: 0.3s;
+    border-radius: 50%;
 }
 .nav-icon img:hover {
     transform: scale(1.2) rotate(45deg);
     transition: 0.3s ease-in-out;
-    fill: var(--green);
 }
-
 
 
 /*
@@ -168,69 +170,81 @@ Banner Start ----------------------------------------------------------------
     margin-bottom: 116px;
 }
 
-
-
 /*
-News List ------------------------------------------------
+About Us ----------------------------------------------------------------
 */
 
-.news {
-    display: inline-block;
-    width: auto;
-    margin: 0 205px;
-    height: auto;
+.teams {
+    margin: 0 205px 150px;
+    text-align: center;
 }
 
-.news-wrapper {
-    width: 700px;
-    height: auto;
-    padding: 34px 0 52px 40px;
-    margin-bottom: 20px;
-    align-items: left;
+.container-teams {
+    margin: auto;
+    padding: 30px;
     display: grid;
-    grid-template-columns: 200px 1fr;
-    gap: 30px;
-    border: 1px transparent solid;
-    border-radius: 10px;
-    cursor: pointer;
-    transition: .3s;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-content: center;
 }
 
-.news-wrapper:hover {
-    transition: .2s ease-in-out;
-    border: 1px solid #d9d9d9;
-    border-radius: 10px;
+.card-teams {
+    margin: 10px;
+    padding: 22px;
+    transition: 0.4s;
+    box-sizing: border-box;
 }
 
-.news-grid-left img{
+.card-teams:hover {
+    background: #ddd;
+    border-radius: 12px;
+    transform: scale(1.09) translateZ(0);
+}
+
+.card-teams:not(:hover) {
+    filter: brightness(0.7) saturate(0) contrast(1.2) blur(10px);
+}
+
+.card-teams img {
     width: 200px;
-    height: 150px;
-    object-fit: cover;  
-    border-radius: 5px;
 }
 
-.news-grid-right p{
-    margin: 0;
-    color: var(--teks-shade);
+.card-teams a img {
+    width: 20px;
+    height: 20px;
 }
 
-.news-grid-right h1{
-    font-size: 32;
-    font-weight: 700px;
-    margin-bottom: 20px;
-}
-
-.news-grid-right .desc {
-    margin-bottom: 20px;
-    color: var(--teks);
-}
-
-.news-grid-right a {
-    text-decoration: none;
+.card-teams .name {
+    padding: 12px;
     font-weight: bold;
+    font-size: 16px;
+    text-transform: uppercase;
 }
 
+.card-teams .role {
+    font-style: italic;
+    color: #888;
+}
 
+.card-teams .social-links {
+    margin: 14px;
+}
+
+.social-links a{
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    transition: .4s;
+}
+
+.social-links a:hover{
+    transform: scale(1.5);
+    transition:.4s;
+}
+
+.social-links a i{
+    color: #444;
+}
 
 
 /*
@@ -255,10 +269,6 @@ Footer Start Here --------------------------------------------------------------
 
 .box-left {
     text-align: left;
-}
-
-.box-left h2{
-    color: white;
 }
 
 .anggota {
@@ -317,102 +327,10 @@ Footer Start Here --------------------------------------------------------------
     color: var(--teks);
     font-weight: bolder;
     border-radius: 5px;
+    cursor: pointer;
 }
+
 
 .box-center img {
     align-items: right;
-}
-
-
-/*
-Pop-up Form ----------------------------------------------------------------
-*/
-
-.popup {
-    position: fixed;
-    top: -150%;
-    left: 50%;
-    opacity: 0;
-    transform: translate(-50%, -50%) scale(1.25);
-    width: 380px;
-    padding: 20px 30px;
-    background: #fff;
-    box-shadow: 2px 2px 5px 5px rgba(0, 0, 0, 0.15);
-    border-radius: 10px;
-    transition: top 0ms ease-in-out 200ms,
-                opacity 0ms ease-in-out 200ms,
-                transform 0ms ease-in-out 200ms;
-}
-
-.popup.active {
-    top: 50%;
-    opacity:1;
-    transform: translate(-50%, -50%) scale(1.25);
-    transition: top 0ms ease-in-out 0ms,
-                opacity 0.5s ease-in-out 200ms,
-                transform 0.3s ease-in-out 200ms;
-}
-
-.popup .close-button {
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    width: 15px;
-    height: 20px;
-    background: #888;
-    text-align: center;
-    line-height: 15px;
-    border-radius: 15px;
-    cursor: pointer;
-}
-
-.popup .form h2 {
-    text-align: center;
-    color: #222;
-    margin: 10px 0 20px;
-    font-size: 40px;
-}
-
-.popup .form .form-element {
-    margin: 15px 0px;
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 2fr;
-}
-
-.popup .form .form-element label {
-    font-size: 14px;
-    color: #222;
-    margin-bottom: 5px;
-}
-
-.popup.form.form-element input[type='text'] {
-    margin-top: 5px;
-    display: block;
-    width: 100%;
-    padding: 10px;
-    outline: none;
-    border: 1px solid #aaa;
-    border-radius: 5px;
-}
-
-.popup .form .form-element button {
-    width: 100%;
-    height: 40px;
-    border: none;
-    outline: none;
-    font-size: 15px;
-    background-color: #222;
-    color: #f5f5f5;
-    border-radius: 10px;
-    cursor: pointer;
-}
-
-.popup .form .form-element a {
-    display: block;
-    text-align: right;
-    font-size: 15px;
-    color: #1a79ca;
-    text-decoration: none;
-    font-weight: 600;
 }

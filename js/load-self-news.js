@@ -8,9 +8,9 @@ const loadArticleListSelf = () => {
     .then((res) => {
         console.log({res});
         for (let i = 0; i < 3; i++) {
-            const { title, description, image, date } = res[i];
+            const { id, title, description, image, date } = res[i];
             document.getElementById("self-love-card").innerHTML += `
-            <div class="card-grid">
+            <div class="card-grid" onclick={redirectToArticles(${id})}>
                 <img src="${image}" alt="contoh">
                 <div class="content">
                     <h3>${title}</h3>
@@ -23,6 +23,8 @@ const loadArticleListSelf = () => {
         console.log({res});
     });
 };
+
+
 loadArticleListSelf();
 
 

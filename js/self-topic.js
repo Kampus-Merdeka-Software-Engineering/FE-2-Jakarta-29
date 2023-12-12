@@ -7,9 +7,9 @@ const baseUrl = "https://mhealth.cyclic.app/";
             .then((res) => res.json())
             .then((res) => {
                 console.log({res});
-                res.forEach(({ title, image, date, description }) => {
+                res.forEach(({ id, title, image, date, description }) => {
                     document.getElementById("self-topic").innerHTML += `
-                    <div class="news-wrapper">
+                    <div class="news-wrapper" onclick={redirectToArticles(${id})}>
                         <div class="news-grid-left">
                             <img src="${image}" alt="contoh">
                         </div>
