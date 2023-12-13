@@ -1,5 +1,5 @@
 
-const baseUrl = "https://mhealth.cyclic.app/";
+const baseUrl = "https://mhealth.cyclic.app";
 
 const loadArticle = () => {
     const urlParams = new URLSearchParams(window.location.search);
