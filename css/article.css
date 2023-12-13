@@ -161,6 +161,7 @@ Article Body ----------------------------------------------------------------
     gap: 100px;
 }
 
+
 .body-article p,h1,h2,h3,h4,h5,h6 {
     margin: 0;
     padding: 0;
@@ -194,6 +195,11 @@ Article Body ----------------------------------------------------------------
     text-align: justify;
 }
 
+.body-article img {
+    width: 550px;
+    height: auto;
+    margin-bottom: 22px;
+}
 
 .body-article p img {
     width: 550px;
