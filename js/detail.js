@@ -1,6 +1,6 @@
 
 const urlParams = new URLSearchParams(window.location.search);
-const prefix = "/FE-2-Jakarta-29/"
+const prefix = "https://kampus-merdeka-software-engineering.github.io/FE-2-Jakarta-29/"
 const url = urlParams.substring(prefix.length);
 const articleId = url.get('id');
 console.log(articleId);
