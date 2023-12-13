@@ -1,5 +1,5 @@
 
-const urlParams = new URLSearchParams(window.location.search.search);
+const urlParams = new URLSearchParams(window.location.search);
 const articleId = urlParams.get('id');
 console.log(articleId);
 
