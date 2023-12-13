@@ -1,17 +1,19 @@
 
-const urlParams = new URLSearchParams(window.location.search);
-// console.log(urlParams);
-// const prefix = "https://kampus-merdeka-software-engineering.github.io/FE-2-Jakarta-29/"
-// const url = urlParams.substring(prefix.length);
-const articleId = urlParams.get('id');
-console.log(articleId);
-
 const baseUrl = "https://mhealth.cyclic.app";
-const apiRoutes = {
-    articleList: `${baseUrl}/news/article?id=${articleId}`,
-}
-console.log(apiRoutes.articleList);
+
 const loadArticle = () => {
+    const urlParams = new URLSearchParams(window.location.search);
+    // console.log(urlParams);
+    // const prefix = "https://kampus-merdeka-software-engineering.github.io/FE-2-Jakarta-29/"
+    // const url = urlParams.substring(prefix.length);
+    const id = urlParams.get('id');
+    console.log(id);
+    
+    const apiRoutes = {
+        articleList: `${baseUrl}/news/article?id=${id}`,
+    }
+    console.log(apiRoutes.articleList);
+
     fetch(apiRoutes.articleList)
     .then((res) => res.json())
     .then((res) => {
