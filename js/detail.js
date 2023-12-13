@@ -10,7 +10,7 @@ const loadArticle = () => {
     console.log(id);
     
     const apiRoutes = {
-        articleList: `${baseUrl}/news/article?id=${id}`,
+        articleList: `${baseUrl}/news/article/?id=${id}`,
     }
     console.log(apiRoutes.articleList);
 
@@ -18,7 +18,7 @@ const loadArticle = () => {
     .then((res) => res.json())
     .then((res) => {
         console.log({res});
-        const { content, title, author, image, date, topic } = res;
+        const { content, title, author, image, date } = res;
         document.getElementById("main-article").innerHTML += `
         <div class="body-article">
             <h1 class="title">${title}</h1>
@@ -78,7 +78,7 @@ const randomArticle2 = () => {
     });
 };
 
+loadArticle()
 randomArticle2()
 randomArticle()
-loadArticle()
 
