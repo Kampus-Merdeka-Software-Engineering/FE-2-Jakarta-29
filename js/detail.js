@@ -1,8 +1,9 @@
 
 const urlParams = new URLSearchParams(window.location.search);
-const prefix = "https://kampus-merdeka-software-engineering.github.io/FE-2-Jakarta-29/"
-const url = urlParams.substring(prefix.length);
-const articleId = url.get('id');
+// console.log(urlParams);
+// const prefix = "https://kampus-merdeka-software-engineering.github.io/FE-2-Jakarta-29/"
+// const url = urlParams.substring(prefix.length);
+const articleId = urlParams.get('id');
 console.log(articleId);
 
 const baseUrl = "https://mhealth.cyclic.app";
