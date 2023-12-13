@@ -1,5 +1,5 @@
 
-const baseUrl = "https://mhealth.cyclic.app";
+const baseUrl = "https://mhealth.cyclic.app/";
 
 const loadArticle = () => {
     const urlParams = new URLSearchParams(window.location.search);
@@ -10,7 +10,7 @@ const loadArticle = () => {
     console.log(id);
     
     const apiRoutes = {
-        articleList: `${baseUrl}/news/article/?id=${id}`,
+        articleList: `${baseUrl}/news/article?id=${id}`,
     }
     console.log(apiRoutes.articleList);
 
