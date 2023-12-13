@@ -1,11 +1,13 @@
 
 const urlParams = new URLSearchParams(window.location.search.search);
 const articleId = urlParams.get('id');
+console.log(articleId);
 
 const baseUrl = "https://mhealth.cyclic.app";
 const apiRoutes = {
     articleList: `${baseUrl}/news/article?id=${articleId}`,
 }
+console.log(apiRoutes.articleList);
 const loadArticle = () => {
     fetch(apiRoutes.articleList)
     .then((res) => res.json())
