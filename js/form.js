@@ -1,6 +1,6 @@
 
 const form = document.querySelector('form');
-const url = "https://mhealth.cyclic.app/kritik/create";
+const url = "https://mhealth.adaptable.app/kritik/create";
 
 document.getElementById('submit-button').addEventListener('click', async (event) => {
     event.preventDefault();
