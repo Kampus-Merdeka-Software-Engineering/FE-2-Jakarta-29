@@ -486,6 +486,19 @@ Pop-up Form ----------------------------------------------------------------
 /*
 Loader Start Here ----------------------------------------------------------------
 */
+.loader-wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    z-index: 100;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.7s ease-in-out;
+}
 
 .loader {
     width: 200px;
@@ -581,4 +594,5 @@ Loader Start Here --------------------------------------------------------------
     .loader-hidden {
         opacity: 0;
         visibility: hidden;
+        transition: all 0.7s ease-in-out;
     }

@@ -1,9 +1,13 @@
 window.addEventListener("load", () => {
-    const loader = document.querySelector(".loader")
+    const loaderContainer = document.querySelector(".loader-wrapper")
+    const loader = document.querySelector(".loader");
 
-    loader.classList.add("loader-hidden")
+    setTimeout(() => {
+        loader.classList.add("loader-hidden");
+    }, 700);
 
     loader.addEventListener("transitionend", () => {
-        document.body.removeChild("loader")
-    })
-})
+        const loaderCopy = loader.cloneNode(true);
+        loaderContainer.parentNode.removeChild(loaderContainer);
+    });
+});
