@@ -28,6 +28,7 @@ html, body {
     box-sizing: border-box;
     outline: none;
     color: var(--teks);
+    scroll-behavior: smooth;
 }
 
 h1, h2, h3 {
@@ -193,17 +194,21 @@ About Us ----------------------------------------------------------------
     padding: 22px;
     transition: 0.4s;
     box-sizing: border-box;
+    transition: all 0.5s ease-in-out;
 }
 
 .card-teams:hover {
     background: #ddd;
     border-radius: 12px;
     transform: scale(1.09) translateZ(0);
+    transition: ease-in-out 0.4s;
+
 }
 
 .card-teams:not(:hover) {
     filter: brightness(0.7) saturate(0) contrast(1.2) blur(10px);
 }
+
 
 .card-teams img {
     width: 200px;

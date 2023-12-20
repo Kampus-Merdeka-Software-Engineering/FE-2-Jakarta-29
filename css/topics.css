@@ -29,6 +29,7 @@ html, body {
     box-sizing: border-box;
     outline: none;
     color: var(--teks);
+    scroll-behavior: smooth;
 }
 
 h1, h2, h3 {
