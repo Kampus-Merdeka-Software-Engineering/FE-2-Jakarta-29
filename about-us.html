@@ -147,22 +147,27 @@
     <!-- Footer End Here -->
 
     <!-- Pop up form Start Here-->
-    <div class="popup">
-        <div class="close-button">&times</div>
-        <form class="form">
-            <h2>Kritik & Saran</h2>
-            <div class="form-element">
-                <label for="name">Username</label>
-                <input type="text" id="name" placeholder="">
-            </div>
-            <div class="form-element">
-                <label for="kritik">Kritik & Saran</label>
-                <input type="text" id="kritik" placeholder="">
-            </div>
-            <div class="form-element">
-                <button id="submit-button">POST</button>
-            </div>
-        </form>
+    <div class="overlay">
+        <div class="popup">
+            <div class="close-button">&times</div>
+            <form class="form">
+                <div class="header-form">
+                    <h2>Kritik & Saran</h2>
+                    <span class="subtitle">Feedback dari teman - teman membantu kami mengembangkan MHealth semakin lebih baik.</span>
+                </div>
+                <div class="form-element">
+                    <input class="input" type="text" id="name" placeholder="">
+                    <label for="name" class="label">Username</label>
+                </div>
+                <div class="form-element">
+                    <input id="input-kritik" class="input" type="text" id="kritik" placeholder="">
+                    <label for="kritik" class="label">Kritik & Saran</label>
+                </div>
+                <div class="form-element">
+                    <button id="submit-button">POST</button>
+                </div>
+            </form>
+        </div>
     </div>
     <!-- Pop up form End Here-->
 
@@ -182,5 +187,6 @@
     <!--Javascript-->
     <script defer src="./js/form.js"></script>
     <script defer src="./js/load.js"></script>
+    <script defer src="./js/popup.js"></script>
 </body>
 </html>
