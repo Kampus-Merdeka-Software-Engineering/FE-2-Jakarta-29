@@ -164,8 +164,8 @@ Banner Start ----------------------------------------------------------------
     margin-bottom: 90px;
     transform: translateY(+50%);
     opacity: 0;
-    animation: comesUp 1s ease-in-out forwards;
-    animation-delay: circle7124;
+    animation: comesUp 3s ease-in-out forwards;
+    animation-delay: 3s;
 }
 
 @keyframes comesUp {
@@ -179,7 +179,7 @@ Banner Start ----------------------------------------------------------------
     width: 100%;
     margin-bottom: 116px;
     transform: scale(0.1);
-    animation-delay: circle7124;
+    animation-delay: 3s;
     animation: slideIn 3s ease-in-out forwards;
 }
 

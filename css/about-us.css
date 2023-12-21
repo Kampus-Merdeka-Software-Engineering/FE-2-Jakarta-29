@@ -166,7 +166,7 @@ Banner Start ----------------------------------------------------------------
     margin-bottom: 90px;
     transform: translateY(+50%);
     opacity: 0;
-    animation: comesUp 1s ease-in-out forwards;
+    animation: comesUp 3s ease-in-out forwards;
     animation-delay: circle7124;
 }
 
