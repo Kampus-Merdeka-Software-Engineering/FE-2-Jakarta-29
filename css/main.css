@@ -18,6 +18,10 @@ Global Variables
     --teks-shade: rgba(0, 0, 0, 0.4);
     --teks-shade-white: #ffffffe3;
 
+    --green1: rgba(78,196,94,1);
+    --green2: lighten($green-1, 10);
+    --green3: lighten($green-1, 20);
+    --green4: rgba(190,240,200,1);
 }
 
 html, body {
@@ -95,7 +99,6 @@ Navbar Start ----------------------------------------------------------------
     border: 5px solid var(--dark-red);
     border-radius: 30%;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
-    
 }
 .nav-menu {
     margin: 0 auto;
@@ -522,6 +525,7 @@ Pop-up Form ----------------------------------------------------------------
     background-color: transparent;
 }
 
+
 .input:focus ~ label {
     transform: translateY(-10%) scale(0.9);
     background-color: white;
@@ -529,7 +533,7 @@ Pop-up Form ----------------------------------------------------------------
     color:var(--green);
 }
 
-#input-kritik {
+#kritik {
     height: 4rem;
     font-size: 0.7rem;
     padding: 0 1rem 0.2rem 1rem;
@@ -546,6 +550,13 @@ Pop-up Form ----------------------------------------------------------------
     border-radius: 10px;
     cursor: pointer;
 }
+
+.popup .form-element button:active {
+    transform: scale(0.97);
+    transition-timing-function: cubic-bezier(0, 0, 0.2, 1);
+    transition-duration: 500ms;
+}
+
 
 
 /*
