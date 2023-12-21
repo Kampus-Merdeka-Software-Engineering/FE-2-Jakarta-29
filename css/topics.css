@@ -162,13 +162,32 @@ Banner Start ----------------------------------------------------------------
 .topic-wrapper h1 {
     font-size: 64px;
     margin-bottom: 90px;
+    transform: translateY(+50%);
+    opacity: 0;
+    animation: comesUp 1s ease-in-out forwards;
+    animation-delay: circle7124;
+}
+
+@keyframes comesUp {
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
 }
 
 .topic-wrapper hr {
     width: 100%;
     margin-bottom: 116px;
+    transform: scale(0.1);
+    animation-delay: circle7124;
+    animation: slideIn 3s ease-in-out forwards;
 }
 
+@keyframes slideIn {
+    to {
+        transform: scale(1);
+    }
+}
 
 
 /*
@@ -200,9 +219,25 @@ News List ------------------------------------------------
 .news-wrapper:hover {
     transition: .2s ease-in-out;
     border: 1px solid #d9d9d9;
+    box-shadow: 0 24px 36px rgba(0,0,0,0.11);
     border-radius: 10px;
-    
+    transform: scale(1.005);
 }
+
+.news-wrapper {
+    transform: translateY(-50%);
+    opacity: 0;
+    animation: slideIn 1s ease-in-out forwards;
+    animation-delay: circle7124;
+}
+
+@keyframes slideIn {
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
 
 .news-grid-left img{
     width: 200px;
