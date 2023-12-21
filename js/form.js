@@ -18,6 +18,7 @@ document.getElementById('submit-button').addEventListener('click', async (event)
 
     const result = await response.json()
     console.log(result)
+    alert("Feedback berhasil terkirim");
 
     document.getElementById('name').value = '';
     document.getElementById('kritik').value = '';
