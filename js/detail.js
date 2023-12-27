@@ -3,9 +3,6 @@ const baseUrl = "https://mhealth.adaptable.app";
 
 const loadArticle = () => {
     const urlParams = new URLSearchParams(window.location.search);
-    // console.log(urlParams);
-    // const prefix = "https://kampus-merdeka-software-engineering.github.io/FE-2-Jakarta-29/"
-    // const url = urlParams.substring(prefix.length);
     const id = urlParams.get('id');
     console.log(id);
     
