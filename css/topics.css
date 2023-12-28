@@ -70,7 +70,7 @@ Navbar Start ----------------------------------------------------------------
 .navbar {
     position: fixed;
     width: 100%;
-    height: 80px;
+    height: 70px;
     background-color: #fffff0;
     padding: 10px 20px;
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
@@ -164,7 +164,7 @@ Banner Start ----------------------------------------------------------------
     margin-bottom: 90px;
     transform: translateY(+50%);
     opacity: 0;
-    animation: comesUp 3s ease-in-out forwards;
+    animation: comesUp 1.5s ease-in-out forwards;
     animation-delay: 3s;
 }
 
@@ -180,7 +180,7 @@ Banner Start ----------------------------------------------------------------
     margin-bottom: 116px;
     transform: scale(0.1);
     animation-delay: 3s;
-    animation: slideIn 3s ease-in-out forwards;
+    animation: slideIn 2s ease-in-out forwards;
 }
 
 @keyframes slideIn {
@@ -204,7 +204,7 @@ News List ------------------------------------------------
 .news-wrapper {
     width: 700px;
     height: auto;
-    padding: 34px 0 52px 40px;
+    padding: 34px 40px 52px 40px;
     margin-bottom: 20px;
     align-items: left;
     display: grid;
