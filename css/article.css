@@ -162,7 +162,6 @@ Article Body ----------------------------------------------------------------
     gap: 100px;
 }
 
-
 .body-article p,h1,h2,h3,h4,h5,h6 {
     margin: 0;
     padding: 0;
@@ -239,6 +238,13 @@ Other Articles --------------------------------
     cursor: pointer;
 }
 
+.news-wrapper:hover {
+    transition: .2s ease-in-out;
+    border: 2px solid #d9d9d9;
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.07);
+    border-radius: 10px;
+    transform: scale(1.005);
+}
 
 .news-wrapper img {
     width: 100px;
@@ -276,6 +282,15 @@ Other Articles --------------------------------
     overflow: hidden;
     height: auto;
     cursor: pointer;
+    transition: ease-in-out 0.3s;
+}
+
+.cards:hover {
+    box-shadow: 0 24px 36px rgba(0,0,0,0.11),
+    0 24px 46px rgba(255, 215, 97, 0.48);
+    background-color: #ffd861;
+    transition: ease-in-out 0.4s;
+    transform: translateY(-5px) scale(1.005) translateZ(0);
 }
 
 .cards img {

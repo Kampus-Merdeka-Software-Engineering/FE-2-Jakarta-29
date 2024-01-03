@@ -13,7 +13,7 @@ Global Variables
     --white: #ffffff;
     --dark-red: #5E0B15;
     --red: #90323D;
-    --orange: #BC8034;
+    --orange: hwb(34 20% 26%);
     --teks: #222222;
     --teks-shade: rgba(0, 0, 0, 0.4);
     --teks-shade-white: #ffffffe3;
@@ -165,7 +165,6 @@ Banner Start ----------------------------------------------------------------
     background: cover;
     min-width: 100%;
     z-index: 1;
-
 }
 
 .box1 {
@@ -194,14 +193,23 @@ Banner Start ----------------------------------------------------------------
 
 
 
-
 /*
 News Start ----------------------------------------------------------------
 */
 
+
 .card-container {
     margin: 82px 205px;
 }
+
+.card-container#mid {
+    background-color: #fffff0;
+    margin: 62px 180px;
+    padding: 22px 25px;
+    border-radius: 15px;
+    position: relative;
+}
+
 
 .card-container h1 {
     font-weight: 900px;
@@ -224,6 +232,7 @@ News Start ----------------------------------------------------------------
     height: 450px;
     cursor: pointer;
     transition: ease 0.4s;
+    z-index: 2;
 }
 
 .card-grid:hover {
@@ -279,32 +288,33 @@ News Start ----------------------------------------------------------------
     margin : 0 25px;
 }
 
-
-
-.btn {
+.btn a {
     display: inline-block;
     background-color: var(--green);
     width: fit-content;
     padding: 10px 25px;
     margin-top: 15px;
     border-radius: 15px;
+    border: 2px transparent solid;
     transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
     touch-action: manipulation;
     font-weight: bold;
 }
-.btn:hover {
-    background-color: var(--orange);
+.btn a:hover {
+    background-color: white;
     color: var(--green);
+    border: 2px solid var(--green);
     transform: translateY(-2px);
 }
 
 .btn a {
     text-decoration: none;
+    z-index: 2;
 }
 
-.btn a:hover {
+/* .btn a:hover {
     color: var(--white);
-}   
+}    */
 
 
 /*
