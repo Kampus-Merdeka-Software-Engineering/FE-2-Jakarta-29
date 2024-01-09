@@ -341,6 +341,10 @@ Footer Start Here --------------------------------------------------------------
     text-align: left;
 }
 
+.box-left h2{
+    color: white;
+}
+
 .anggota {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -389,7 +393,6 @@ Footer Start Here --------------------------------------------------------------
     fill: var(--green);
 }
 
-
 .sect-2 button {
     width: 100%;
     height: 30px;
@@ -397,13 +400,12 @@ Footer Start Here --------------------------------------------------------------
     color: var(--teks);
     font-weight: bolder;
     border-radius: 5px;
-    cursor: pointer;
 }
-
 
 .box-center img {
     align-items: right;
 }
+
 
 /*
 Pop-up Form ----------------------------------------------------------------
@@ -537,7 +539,6 @@ Pop-up Form ----------------------------------------------------------------
     background-color: transparent;
 }
 
-
 .input:focus ~ label {
     transform: translateY(-10%) scale(0.9);
     background-color: white;
@@ -548,7 +549,8 @@ Pop-up Form ----------------------------------------------------------------
 #kritik {
     height: 4rem;
     font-size: 0.7rem;
-    padding: 0 1rem 0.2rem 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 1rem 1rem 0.2rem 1rem;
 }
 
 .popup .form .form-element button {

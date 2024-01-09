@@ -534,10 +534,11 @@ Pop-up Form ----------------------------------------------------------------
     color:var(--green);
 }
 
-#input-kritik {
+#kritik {
     height: 4rem;
     font-size: 0.7rem;
-    padding: 0 1rem 0.2rem 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 1rem 1rem 0.2rem 1rem;
 }
 
 .popup .form .form-element button {
@@ -550,6 +551,12 @@ Pop-up Form ----------------------------------------------------------------
     color: #f5f5f5;
     border-radius: 10px;
     cursor: pointer;
+}
+
+.popup .form-element button:active {
+    transform: scale(0.97);
+    transition-timing-function: cubic-bezier(0, 0, 0.2, 1);
+    transition-duration: 500ms;
 }
 
 
