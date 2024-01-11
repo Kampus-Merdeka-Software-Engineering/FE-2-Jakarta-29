@@ -231,7 +231,7 @@ About Us ----------------------------------------------------------------
 }
 
 .card-teams:not(:hover) {
-    filter: brightness(0.7) saturate(0) contrast(1.2) blur(10px);
+    filter: brightness(0.7) saturate(0) contrast(1.2) blur(7px);
 }
 
 
